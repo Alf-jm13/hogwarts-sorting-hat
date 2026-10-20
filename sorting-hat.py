@@ -1,6 +1,21 @@
 print("Welcome to the Hogwarts Sorting Hat")
 
-bravery = input("Are you brave? ")
+trait = input("What best describes you? ")
 
-if bravery.lower() == "yes":
-    print("You belong in Gryffindor!")
+if trait.lower() == "brave":
+    print("You are sorted into Gryffindor!")
+    
+elif trait.lower() == "intelligent":
+    print("You are sorted into Ravenclaw!")
+    
+elif trait.lower() == "loyal":
+    print("You are sorted into Hufflepuff!")
+
+elif trait.lower() == "ambitious":
+    print("You are sorted into Slytherin!")
+    
+elif trait.lower() == "adventurous":
+    print("You deserve the marauders map!")
+    
+else:
+    print("The Sorting Hat is confused.")
